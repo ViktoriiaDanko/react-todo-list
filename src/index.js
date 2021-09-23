@@ -6,15 +6,18 @@ const TodoList = () => {
   <ul>
     <li>Learn React</li>
     <li>Build App</li>
-  </ul>)
+  </ul>
+  )
 };
 
 const AppHeader = () => {
   return <h1>My Todo List</h1>
 };
 
+
 const SearchPanel = () => {
-  return  <input placeholder="search"/>
+  const SearchText = 'Type here to search';
+  return  <input placeholder={SearchText}/>
 };
 
 const App = () => {
