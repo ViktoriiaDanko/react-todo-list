@@ -5,6 +5,8 @@ import AppHeader from './components/app-header';
 import SearchPanel from './components/search-panel';
 import TodoList from './components/todo-list';
 
+import './index.css';
+
 const todoData = [
   { label: 'drink coffee', important: false,  id: 1},
   { label: 'make app', important: true,  id: 2 },
@@ -13,7 +15,7 @@ const todoData = [
 
 const App = () => {
   return (
-    <div>
+    <div className="todo-app">
       <AppHeader />
       <SearchPanel />
       <TodoList todos={todoData} />
