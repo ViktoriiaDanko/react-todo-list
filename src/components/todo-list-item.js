@@ -17,15 +17,15 @@ const TodoListItem = ( { label, important = false } ) => {
 
         <button type="button"
             className="btn btn-outline-success btn-sm float-right">
-            <i className="fa fa-exclamation" />
+            <i className="bi bi-exclamation-lg" />
         </button>
 
         <button type="button"
             className="btn btn-outline-danger btn-sm float-right">
-            <i className="fa fa-trash-o" />
+            <i className="bi bi-x-circle-fill" />
         </button>
         </span>
-    )
+    );
 };
 
 export default TodoListItem;

@@ -1,6 +1,6 @@
 .search-input {
     width: auto;
     flex-grow: 1;
-    /* margin-right: 20px; */
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-bottom: 3px;
   }
